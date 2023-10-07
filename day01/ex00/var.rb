@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby -w
+#!/usr/bin/env -S ruby -w
 
 def my_var
   a = 10
@@ -6,10 +6,11 @@ def my_var
   c = nil
   d = 10.0
 
-  puts "a contains: #{a} is a type: #{a.class}"
-  puts "b contains: #{b} is a type: #{b.class}"
-  puts "c contains: #{c.inspect} is a type: #{c.class}"
-  puts "d contains: #{d} is a type: #{d.class}"
+  puts "my variables :" 
+  puts "\ta contains: #{a} is a type: #{a.class}"
+  puts "\tb contains: #{b} is a type: #{b.class}"
+  puts "\tc contains: #{c.inspect} is a type: #{c.class}"
+  puts "\td contains: #{d} is a type: #{d.class}"
 end
 
 my_var
